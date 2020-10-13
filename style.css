@@ -1,0 +1,154 @@
+/* fonts & text formats */
+h2, h3, p, li, a {
+    font-family: Optima, Segoe, Candara, Calibri;
+    color: white
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20;
+    font-weight:lighter;
+    text-align:center;
+    padding-bottom:5vw
+}
+
+h2 {
+    font-size: 18;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 14;
+    text-align: left;
+    padding-bottom:0;
+
+}
+
+p {
+    font-size: 14;
+    text-align: justify;
+    padding-bottom: 5vw;
+    line-height: 1.5;
+}
+
+/* link styles */ 
+a:link {
+    color: white;
+    text-decoration-color: rgb(189, 157, 121);
+    text-decoration-thickness: .1vw;
+}
+
+a:visited {
+    color: rgb(189, 157, 121);
+}
+
+a:hover {
+    text-decoration-color: white;
+}
+
+a:active {
+    color: rgb(247, 219, 187);
+}
+
+
+/* format lists */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+ul>li, ol>li {
+    font-weight: 900;
+    font-size: 14;
+    line-height: 2;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ol>li {
+    list-style-position: inside;
+}
+
+/* container sizes */
+header {
+    width: 70%;
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 0;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 0;
+}
+
+footer, footer>p {
+    text-align: center;
+}
+
+hr {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    border: 0.1vw solid rgb(189, 157, 121);
+    background-color: rgb(189, 157, 121);
+}
+
+/* mobile first style */
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    flex: 1
+}
+
+.item-double{
+    flex: 1.75;
+}
+
+img {
+    width:100%;
+}
+
+
+/* desktop style */
+@media all and (min-width: 800px) {
+    
+    .group {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 2.2vw;
+        padding-bottom:5vw
+    }
+    
+    h2 {
+        font-size: 2.5vw;
+
+    }
+    
+    h3 {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    
+    }
+    
+    p {
+        font-size: 1.7vw;
+        line-height: 2.5vw;
+        padding-bottom: 5vw;
+    }
+
+    ul>li, ol>li {
+        font-size: 1.8vw;
+        line-height: 3vw;
+}
