@@ -1,6 +1,6 @@
 # Portfolio Webpage
 
-This responsive, single page site displays HTML and CSS concepts addressed in Thinkful's Engineering Prep Course. It serves as the final checkpoint of instruction before enrollment in the Engineering Immersion Program.
+This responsive, single page site displays HTML and CSS concepts including flexboxes and a responsive contact form. It serves as a 
 
 ## Content Displayed:
 
@@ -12,7 +12,10 @@ This responsive, single page site displays HTML and CSS concepts addressed in Th
 * a brief biographys detailing:
     * my pasion for web development and collaborative spirit
     * interests I have outside of programming
-* a section for contact including links to my email and LinkedIn and GitHub accounts
+* a section for contact including 
+    * links to my email and LinkedIn and GitHub accounts
+    * a responsive contact form
+* a portfolio section populated with placeholder text, images, and links
 
 ## Technical Elements Utilized
 
@@ -23,4 +26,9 @@ This responsive, single page site displays HTML and CSS concepts addressed in Th
 * semantic containers
 * styled links using pseudo-classes
 * comments throughout both CSS and HTML
+* page layout using flexbox.
+* media queries for responsive design
+* responsive navigation
+* a functional contact form
+
 

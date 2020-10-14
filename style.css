@@ -55,8 +55,8 @@ footer, footer>p {
 }
 
 hr {
-    margin-top: 1.5vw;
-    margin-bottom: 1.5vw;
+    margin-top: 1.0vw;
+    margin-bottom: 1.0vw;
     border: 0.1vw solid rgb(189, 157, 121);
     background-color: rgb(189, 157, 121);
 }
@@ -183,6 +183,7 @@ ul>li {
 
 ol>li {
     list-style-position: inside;
+    list-style: none;
     padding: 0 20px;
 }
 
