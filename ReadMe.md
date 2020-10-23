@@ -1,6 +1,6 @@
 # Portfolio Webpage
 
-This responsive, single page site displays HTML and CSS concepts including flexboxes and a responsive contact form. 
+This responsive, single page site displays HTML and CSS concepts including flexboxes and a responsive contact form. It serves as a 
 
 ## Content Displayed:
 
